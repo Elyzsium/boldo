@@ -2,7 +2,7 @@ import { ProgressBarProps } from "@/types";
 
 const ProgressBar = ({ value, color }: ProgressBarProps) => (
   <div className="flex items-center gap-4 mb-4">
-    <div className="w-12 h-2 bg-gray-600 rounded" />
+    <div className="w-12 h-2 bg-gray-200 rounded" />
     <div className="flex-1 flex items-center gap-4">
       <div className="flex-1 h-2 rounded-full overflow-hidden">
         <div

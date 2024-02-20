@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
 
           <div className="grid gap-4">
-            <Card className="bg-navy-700 p-6 rounded-lg space-y-4">
+            <Card className="bg-gray-700 opacity-50 p-6 rounded-lg space-y-4">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-red-500 rounded-full"></div>
                 <div className="h-2 w-2 bg-yellow-500 rounded-full"></div>
