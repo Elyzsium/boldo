@@ -13,19 +13,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-3 sm:p-4 md:p-6">
+    <nav className="p-2 sm:p-4 md:p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
      
-        <div className="relative h-50 w-50 rounded-lg overflow-hidden">
+        {/* <div className="relative h-32 w-32 rounded-lg overflow-hidden">
             <Image
-              src="/images/logo3.png"
+              src="/images/logo5.png"
               alt="logo"
-              width={50}
-              height={50}
+              width={32}
+              height={32}
               layout="responsive"
               className="w-full h-full "
             />
-        </div>
+        </div> */}
+        <div className="ml-4 flex items-center lg:ml-0">
+            <Link href="/" passHref>
+            <Image src="/images/logo5.png" alt="logo" width={100} height={50} className=" cursor-pointer" />
+            </Link>
+          </div>
 
         <button
           className="md:hidden text-white hover:bg-navy-700 p-2 transition-colors"

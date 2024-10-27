@@ -7,18 +7,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 md:gap-12">
           <div className="lg:col-span-4">
-            <Link href="/" className="inline-block">
-              <div className="relative h-50 w-50 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/logof.png"
-                  alt="logo"
-                  width={50}
-                  height={50}
-                  layout="responsive"
-                  className="w-full h-full "
-                />
-              </div>
+          
+            <div className="ml-4 flex items-center lg:ml-0">
+            <Link href="/" passHref>
+            <Image src="/images/logof.png" alt="logo" width={100} height={50} className=" cursor-pointer" />
             </Link>
+          </div>
+
             <p className="mt-4 sm:mt-5 md:mt-6 text-gray-600 text-sm sm:text-base leading-relaxed max-w-sm">
               Social media validation business model canvas graphical user
               interface launch party creative facebook iPad twitter.

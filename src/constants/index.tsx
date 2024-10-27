@@ -1,4 +1,5 @@
 import { BlogPost } from "@/types";
+import { Link, Eye, Sun } from "lucide-react";
 
 export const testimonials = [
     {
@@ -110,4 +111,17 @@ export const logos = [
   { image: '/images/logo4.png' },
 ];
 
-
+export   const items = [
+  {
+    icon: Link,
+    text: "We connect our customers with the best.",
+  },
+  {
+    icon: Eye,
+    text: "Advisor success customer launch party.",
+  },
+  {
+    icon: Sun,
+    text: "Business-to-consumer long tail.",
+  },
+];
