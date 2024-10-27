@@ -7,12 +7,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 md:gap-12">
           <div className="lg:col-span-4">
-          
             <div className="ml-4 flex items-center lg:ml-0">
-            <Link href="/" passHref>
-            <Image src="/images/logof.png" alt="logo" width={100} height={50} className=" cursor-pointer" />
-            </Link>
-          </div>
+              <Link href="/" passHref>
+                <Image
+                  src="/images/logof.png"
+                  alt="logo"
+                  width={100}
+                  height={50}
+                  className=" cursor-pointer"
+                />
+              </Link>
+            </div>
 
             <p className="mt-4 sm:mt-5 md:mt-6 text-gray-600 text-sm sm:text-base leading-relaxed max-w-sm">
               Social media validation business model canvas graphical user
@@ -40,7 +45,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/products"
+                      href="#products"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Products
@@ -48,7 +53,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/services"
+                      href="#services"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Services
@@ -72,20 +77,20 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/careers"
+                      href="#careers"
                       className="flex items-center space-x-1 sm:space-x-2"
                     >
                       <span className="text-sm sm:text-base text-gray-600 hover:text-gray-900">
                         Careers
                       </span>
-                      <span className="bg-[#65E4A3] rounded-full text-black text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
+                      <span className="bg-[#65E4A3] rounded-full text-black text-xs px-1.5 sm:px-2 py-0.5 sm:py-1">
                         Hiring!
                       </span>
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/services"
+                      href="#services"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Services
@@ -101,7 +106,7 @@ const Footer = () => {
                 <ul className="space-y-3 sm:space-y-4 md:space-y-6">
                   <li>
                     <Link
-                      href="/blog"
+                      href="#blog"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Blog
@@ -109,7 +114,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/products"
+                      href="#products"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Products
@@ -117,7 +122,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/services"
+                      href="#services"
                       className="text-sm sm:text-base text-gray-600 hover:text-gray-900"
                     >
                       Services

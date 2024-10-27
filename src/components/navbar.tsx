@@ -15,17 +15,6 @@ const Navbar = () => {
   return (
     <nav className="p-2 sm:p-4 md:p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-     
-        {/* <div className="relative h-32 w-32 rounded-lg overflow-hidden">
-            <Image
-              src="/images/logo5.png"
-              alt="logo"
-              width={32}
-              height={32}
-              layout="responsive"
-              className="w-full h-full "
-            />
-        </div> */}
         <div className="ml-4 flex items-center lg:ml-0">
             <Link href="/" passHref>
             <Image src="/images/logo5.png" alt="logo" width={100} height={50} className=" cursor-pointer" />

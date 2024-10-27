@@ -4,7 +4,7 @@ import WidthWrapper from "./ui/WidthWrapper";
 import { Check } from "lucide-react";
 
 
-const Marketing = () => {
+const MarketingFeature = () => {
   return (
     <WidthWrapper className="py-8 sm:py-12 md:py-16 lg:py-20">
       <div className="grid md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-40 items-center">
@@ -51,6 +51,6 @@ const Marketing = () => {
   );
 };
 
-export default Marketing;
+export default MarketingFeature;
 
 
