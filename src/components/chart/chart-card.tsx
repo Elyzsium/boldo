@@ -3,8 +3,8 @@ import { CircularProgress } from "./circular-progress";
 
 export const ChartCard = () => {
   return (
-    <Card className="absolute bottom-4 right-4 bg-white border-0 shadow-lg w-72">
-      <CardContent className="p-6">
+    <Card className="absolute bottom-[-20%] left-[20%] mb-12 bg-white border-0 shadow-lg w-52 md:w-64 h-80 md:h-80 z-10 rounded-lg">
+      <CardContent className="p-4">
         <div className="flex flex-col justify-between items-center">
           <CircularProgress />
           <div className="space-y-3 text-sm mt-5">

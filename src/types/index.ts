@@ -54,11 +54,3 @@ export interface ProgressBarProps {
   color: string;
 }
 
-export const logos = [
-  { name: 'Boldo' },
-  { name: 'Presto' },
-  { name: 'Boldo' },
-  { name: 'Presto' },
-  { name: 'Boldo' },
-  { name: 'Presto' },
-];

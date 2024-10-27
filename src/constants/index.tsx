@@ -101,4 +101,13 @@ export const blogPosts: BlogPost[] = [
   }
 ];
 
+export const logos = [
+  { image: '/images/logo2.png'},
+  { image: '/images/logo4.png' },
+  { image: '/images/logo2.png'},
+  { image: '/images/logo4.png'},
+  { image: '/images/logo2.png' },
+  { image: '/images/logo4.png' },
+];
+
 

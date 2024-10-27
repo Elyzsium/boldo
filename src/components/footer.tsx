@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,11 +8,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 md:gap-12">
           <div className="lg:col-span-4">
             <Link href="/" className="inline-block">
-              <div className="flex items-center space-x-2">
-                <div className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 bg-[#0A2640]"></div>
-                <span className="text-[#0A2640] text-xl sm:text-2xl md:text-3xl font-bold">
-                  Boldo
-                </span>
+              <div className="relative h-50 w-50 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/logof.png"
+                  alt="logo"
+                  width={50}
+                  height={50}
+                  layout="responsive"
+                  className="w-full h-full "
+                />
               </div>
             </Link>
             <p className="mt-4 sm:mt-5 md:mt-6 text-gray-600 text-sm sm:text-base leading-relaxed max-w-sm">
@@ -79,7 +83,7 @@ const Footer = () => {
                       <span className="text-sm sm:text-base text-gray-600 hover:text-gray-900">
                         Careers
                       </span>
-                      <span className="bg-[#65E4A3] text-black text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
+                      <span className="bg-[#65E4A3] rounded-full text-black text-xs px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
                         Hiring!
                       </span>
                     </Link>

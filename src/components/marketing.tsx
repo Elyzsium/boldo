@@ -3,6 +3,7 @@ import Image from "next/image";
 import WidthWrapper from "./ui/WidthWrapper";
 import { Check } from "lucide-react";
 
+
 const Marketing = () => {
   return (
     <WidthWrapper className="py-8 sm:py-12 md:py-16 lg:py-20">
@@ -15,14 +16,14 @@ const Marketing = () => {
               width={300}
               height={450}
               layout="responsive"
-              className="w-full h-64 sm:h-80 md:h-full object-cover rounded-lg"
+              className="w-full h-64 sm:h-80 md:h-full object-cover rounded-lg "
             />
-            <div className="bottom-16 z-32">
+          </div>
+          <div className="absolute bottom-[-20%] right-[15%] bg-white mb-10 border-0 shadow-lg w-52 md:w-64 h-80 md:h-80 z-10 rounded-lg overflow-hidden">
               <BarChart percentage={30} label="More income in June" />
             </div>
-          </div>
         </div>
-        <div className="space-y-6 sm:space-y-8">
+        <div className="space-y-6 sm:space-y-8 mt-10">
           <h2 className="text-2xl sm:text-3xl md:text-[36px] font-normal text-slate-900">
             We connect our customers with the best, and help them keep up-and
             stay open.
@@ -51,3 +52,5 @@ const Marketing = () => {
 };
 
 export default Marketing;
+
+

@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,12 +15,20 @@ const Navbar = () => {
   return (
     <nav className="p-3 sm:p-4 md:p-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-emerald-400 text-xl sm:text-2xl font-bold">
-          Boldo
+     
+        <div className="relative h-50 w-50 rounded-lg overflow-hidden">
+            <Image
+              src="/images/logo3.png"
+              alt="logo"
+              width={50}
+              height={50}
+              layout="responsive"
+              className="w-full h-full "
+            />
         </div>
 
         <button
-          className="md:hidden text-white hover:bg-navy-700 p-2 rounded-lg transition-colors"
+          className="md:hidden text-white hover:bg-navy-700 p-2 transition-colors"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
