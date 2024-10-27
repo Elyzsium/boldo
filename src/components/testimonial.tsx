@@ -63,7 +63,7 @@ const Testimonial = () => {
                   >
                     <div className={`flex flex-col justify-between h-full`}>
                       <p className="text-gray-800 text-base sm:text-lg md:text-xl lg:text-2xl leading-7 sm:leading-8 md:leading-9 lg:leading-10">
-                        "{testimonial.quote}"
+                        &ldquo;{testimonial.quote}&rdquo;
                       </p>
 
                       <div className="flex items-center space-x-3 sm:space-x-4 mt-4 md:mb-4">
@@ -115,66 +115,3 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
-
-
-
-
-// import { ArrowLeft, ArrowRight } from "lucide-react";
-// import { Card, CardContent } from "@/components/ui/card";
-// import { testimonials } from "@/constants";
-// import WidthWrapper from "./ui/WidthWrapper";
-// import Image from "next/image";
-
-// const Testimonial = () => {
-
-//   return (
-
-//     <div className="min-h-screen bg-navy-900 text-white bg-[#0A2640] p-8">
-//       <WidthWrapper className="py-20">
-//       <div className="max-w-6xl mx-auto">
-//         <div className="flex justify-between items-center mb-12">
-//           <h1 className="text-[48px] font-normal leading-tight">
-//             An enterprise template to ramp
-//             <br />
-//             up your company website
-//           </h1>
-
-//           <div className="flex space-x-4">
-//             <button className="p-4 bg-white bg-opacity-10 rounded-full hover:bg-opacity-20 transition-all">
-//               <ArrowLeft className="w-6 h-6" />
-//             </button>
-//             <button className="p-4 bg-white bg-opacity-10 rounded-full hover:bg-opacity-20 transition-all">
-//               <ArrowRight className="w-6 h-6" />
-//             </button>
-//           </div>
-//         </div>
-
-//         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-//           {testimonials.map((testimonial, index) => (
-//             <Card key={index} className="bg-white rounded-lg p-6 h-full">
-//               {/* <CardContent className="space-y-4"> */}
-//               <CardContent className="space-y-4">
-//                 <p className="text-gray-800 text-lg font-medium">
-//                   "{testimonial.quote}"
-//                 </p>
-
-//               <div className="flex items-center space-x-3 mt-4">
-//               <Image src={testimonial.image} alt={testimonial.author} width={50} height={50} className="rounded-full" />
-//                   <div className="ml-4">
-//                     <p className="font-semibold text-gray-900">
-//                       {testimonial.author}
-//                     </p>
-//                     <p className="text-sm text-gray-600">{testimonial.role}</p>
-//                   </div>
-//                 </div>
-//               </CardContent>
-//             </Card>
-//           ))}
-//         </div>
-//       </div>
-//       </WidthWrapper>
-//     </div>
-//   );
-// };
-
-// export default Testimonial;

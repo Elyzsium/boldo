@@ -27,6 +27,7 @@ Before you begin, ensure you have the following installed:
 - Node.js (v16.0.0 or higher)
 - npm or yarn package manager
 
+
 ## 🔧 Installation
 
 1. Clone the repository:
@@ -102,7 +103,8 @@ The project can be deployed using [Vercel](https://vercel.com) for the best Next
 
 ---
 
-<!-- echo "# boldo" >> README.md
+<!-- echo "# boldo" >> README.md]
+ {/* hover:bg-opacity-20 */}
 git init
 git add README.md
 git commit -m "first commit"
