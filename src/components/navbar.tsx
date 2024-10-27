@@ -15,11 +15,18 @@ const Navbar = () => {
   return (
     <nav className="p-2 sm:p-4 md:p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
+       
         <div className="ml-4 flex items-center lg:ml-0">
-            <Link href="/" passHref>
-            <Image src="/images/logo5.png" alt="logo" width={100} height={50} className=" cursor-pointer" />
-            </Link>
-          </div>
+          <Link href="/" passHref>
+            <Image
+              src="/images/logo5.png"
+              alt="logo"
+              width={100}
+              height={50}
+              className="cursor-pointer"
+            />
+          </Link>
+        </div>
 
         <button
           className="md:hidden text-white hover:bg-navy-700 p-2 transition-colors"

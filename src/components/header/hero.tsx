@@ -1,5 +1,3 @@
-
-
 import { Card } from "../ui/card";
 import { CircularProgress } from "../chart/circular-progress";
 import ProgressBar from "../chart/progress-bar";
@@ -8,9 +6,13 @@ import Slider from "./slider";
 
 const Hero = () => {
   return (
-    <div className="bg-[#0A2640] bg-gradient-to-br from-navy-900 to-navy-800">
-      <Navbar />
-      <main className="px-4 md:px-6 py-8 sm:py-12 md:py-16 lg:py-20">
+    <div className="relative bg-[#0A2640] overflow-hidden">
+      <div className="absolute top-[-150px] right-[-150px] w-[600px] h-[600px] bg-gradient-to-tr from-emerald-400 to-blue-400 rounded-full opacity-10 z-0"></div>
+      <div className="relative z-10">
+        <Navbar />
+      </div>
+
+      <main className="px-4 md:px-6 py-8 sm:py-12 md:py-16 lg:py-20 relative z-10">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6 lg:gap-8 items-center">
           <div className="space-y-4 sm:space-y-6">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-medium leading-tight">
@@ -81,7 +83,7 @@ const Hero = () => {
                   <div className="h-2 w-2 bg-green-500 rounded-full"></div>
                 </div>
                 <div className="h-40 flex flex-col sm:flex-row items-center justify-center gap-4">
-                  <CircularProgress/>
+                  <CircularProgress />
                   <div className="space-y-2">
                     <div className="h-2 w-28 bg-gray-200 rounded" />
                     <div className="h-2 w-24 bg-gray-200 rounded" />

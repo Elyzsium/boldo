@@ -18,7 +18,10 @@ const Service = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
-            <div key={index} className="overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
+            <div
+              key={index}
+              className="overflow-hidden transition-transform duration-300 hover:transform hover:scale-105"
+            >
               <div className="p-4 sm:p-6 space-y-3 sm:space-y-4">
                 <div className="w-full">
                   <Image
@@ -33,11 +36,15 @@ const Service = () => {
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900">
                   {service.title}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">{service.description}</p>
-                <button className="flex items-center space-x-2 text-gray-700 font-bold hover:text-primary transition-colors">
+                <p className="text-sm sm:text-base text-gray-600">
+                  {service.description}
+                </p>
+                <button className="relative flex items-center space-x-2 text-gray-700 font-bold hover:text-primary transition-colors group">
                   <span className="text-sm sm:text-base">Explore page</span>
                   <ArrowRight className="w-4 h-4" />
+                  <div className="absolute bottom-[-8px] right-6 w-[80%] h-[2px] bg-gray-700 group-hover:bg-primary transition-colors" />
                 </button>
+               
               </div>
             </div>
           ))}
@@ -47,4 +54,3 @@ const Service = () => {
   );
 };
 export default Service;
-
