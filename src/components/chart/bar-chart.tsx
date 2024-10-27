@@ -3,7 +3,7 @@ import { Card, CardContent } from "../ui/card";
 
 export const BarChart = ({ percentage, label }: BarChartProps) => {
   return (
-    <Card className="absolute bottom-4 right-10 down-20 bg-white border-0 shadow-lg w-48 h-72">
+    <Card className="absolute bottom-4 right-10 bg-white border-0 shadow-lg w-48 h-72 ">
       <CardContent className="p-4">
         <div className="mt-20 flex items-center justify-center h-32 relative">
           <div className="grid grid-cols-7 gap-3 w-full px-4 h-full items-center">

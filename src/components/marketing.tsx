@@ -1,4 +1,4 @@
-import { BarChart} from "./chart/bar-chart";
+import { BarChart } from "./chart/bar-chart";
 import Image from "next/image";
 import WidthWrapper from "./ui/WidthWrapper";
 import { Check } from "lucide-react";
@@ -17,7 +17,9 @@ const Marketing = () => {
               layout="responsive"
               className="w-full h-64 sm:h-80 md:h-full object-cover rounded-lg"
             />
-            <BarChart percentage={30} label="More income in June" />
+            <div className="bottom-16 z-32">
+              <BarChart percentage={30} label="More income in June" />
+            </div>
           </div>
         </div>
         <div className="space-y-6 sm:space-y-8">

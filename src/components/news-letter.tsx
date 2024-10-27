@@ -1,14 +1,14 @@
 "use client";
 
-import React, { useState } from 'react';
-import WidthWrapper from './ui/WidthWrapper';
+import React, { useState } from "react";
+import WidthWrapper from "./ui/WidthWrapper";
 
 const NewsLetter = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Submitted email:', email);
+    console.log("Submitted email:", email);
   };
 
   return (
@@ -20,8 +20,11 @@ const NewsLetter = () => {
             <br className="hidden md:block" />
             up your company website
           </h1>
-          
-          <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-3 sm:gap-4 justify-center items-center max-w-[320px] sm:max-w-xl mx-auto">
+
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col md:flex-row gap-3 sm:gap-4 justify-center items-center max-w-[320px] sm:max-w-xl mx-auto"
+          >
             <input
               type="email"
               placeholder="Your email address"

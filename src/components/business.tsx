@@ -9,7 +9,6 @@ const Business = () => {
   return (
     <WidthWrapper className="py-8 sm:py-12 md:py-16 lg:py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-40 items-center">
-        {/* Left Column */}
         <div className="space-y-4 sm:space-y-6 md:space-y-8">
           <h2 className="text-2xl sm:text-3xl md:text-[36px] font-normal text-slate-900 max-w-[500px]">
             We connect our customers with the best, and help them keep up-and
@@ -37,7 +36,6 @@ const Business = () => {
           </div>
         </div>
 
-        {/* Right Column */}
         <div className="relative mt-8 md:mt-0">
           <div className="relative h-[250px] sm:h-[300px] md:h-[350px] rounded-lg overflow-hidden">
             <Image

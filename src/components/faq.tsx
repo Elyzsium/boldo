@@ -13,7 +13,7 @@ const Faq = () => {
       <div className="max-w-7xl mx-auto px-4 py-6 sm:py-8 md:py-12">
         <div className="relative w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] mb-8 sm:mb-12 md:mb-16 overflow-hidden rounded-lg">
           <Image
-            src="/images/img9.png"
+            src="/images/Image.jpg"
             alt="Modern office space with people working"
             width={300}
             height={350}
@@ -42,7 +42,6 @@ const Faq = () => {
                     }`}
                   />
                 </div>
-                {/* Bottom line - gets darker on hover */}
                 <div className="absolute bottom-0 left-0 w-full h-px bg-gray-200 group-hover:bg-gray-400 transition-colors" />
               </button>
 

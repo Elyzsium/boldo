@@ -1,4 +1,4 @@
-export * from './progress'
+
 
 import { HTMLAttributes } from "react"
 
@@ -53,3 +53,12 @@ export interface ProgressBarProps {
   value: number;
   color: string;
 }
+
+export const logos = [
+  { name: 'Boldo' },
+  { name: 'Presto' },
+  { name: 'Boldo' },
+  { name: 'Presto' },
+  { name: 'Boldo' },
+  { name: 'Presto' },
+];
